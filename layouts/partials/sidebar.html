@@ -1,0 +1,14 @@
+{{ if eq .Site.Params.show_downloads "true" }}
+<a href="https://github.com/{{ .Site.Params.gh_repo_owner }}/{{ .Site.Params.gh_repo_name }}/archive/master.zip" class="button">
+  <small>{{ i18n "Download" }}</small>
+  {{ i18n "zipFile" }}
+</a>
+<a href="https://github.com/{{ .Site.Params.gh_repo_owner }}/{{ .Site.Params.gh_repo_name }}/archive/master.tar.gz" class="button">
+  <small>{{ i18n "Download" }}</small>
+  {{ i18n "targzFile" }}
+</a>
+{{ end }}
+
+<p class="repo-owner">{{ i18n "Repository" }} <a href="https://github.com/{{ .Site.Params.gh_repo_owner }}/{{ .Site.Params.gh_repo_name }}">{{ .Site.Params.gh_repo_name }}</a> {{ i18n "isMaintainedBy" }} <a href="https://github.com/hawkeye116477">hawkeye116477</a>.</p>
+
+<p>{{ i18n "ThisPageWasGeneratedBy" }} <a href="https://gohugo.io/">Hugo {{ .Hugo.Version }}</a>, {{ i18n "usingTheArchitectTheme" }}, {{ i18n "originallyCreatedBy" }} <a href="https://github.com/pages-themes">GitHub</a> {{ i18n "and" }} {{ i18n "portedToHugoBy" }} <a href="https://github.com/hawkeye116477">hawkeye116477</a>.</p>

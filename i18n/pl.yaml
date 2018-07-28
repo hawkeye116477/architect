@@ -1,0 +1,36 @@
+
+- id: ViewProjectOn
+  translation: "Zobacz projekt na"
+
+- id: GitHub
+  translation: "GitHubie"
+
+- id: Download
+  translation: "Pobierz"
+
+- id: zipFile
+  translation: "plik .zip"
+
+- id: targzFile
+  translation: "plik .tar.gz"
+
+- id: Repository
+  translation: "Repozytorium"
+
+- id: isMaintainedBy
+  translation: "jest utrzymywane przez"
+
+- id: ThisPageWasGeneratedBy
+  translation: "Ta strona została wygenerowana przez"
+
+- id: usingTheArchitectTheme
+  translation: "z wykorzystaniem motywu Architect"
+
+- id: originallyCreatedBy
+  translation: "oryginalnie stworzonego przez"
+
+- id: portedToHugoBy
+  translation: "przeniesionego do Hugo przez"
+
+- id: and
+  translation: "i"

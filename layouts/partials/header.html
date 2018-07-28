@@ -1,0 +1,7 @@
+<div class="inner">
+    <a href="{{ "/" | absURL }}">
+        <h1>{{ .Site.Title }}</h1>
+    </a>
+    <h2>{{ .Site.Params.Description }}</h2>
+    <a href="https://github.com/{{ .Site.Params.gh_repo_owner }}/{{ .Site.Params.gh_repo_name }}" class="button"><small>{{ i18n "ViewProjectOn" }} </small> {{ i18n "GitHub" }}</a>
+</div>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+    {{ partial "head.html" . }}
+    {{ partial "seo.html" . }}
+</head>
+<body>
+    <header>
+            {{ partial "header.html" . }}
+    </header>
+    <div id="content-wrapper">
+        <div class="inner clearfix">
+            <section id="main-content">
+                {{ .Content }}
+            </section>
+            <aside id="sidebar">
+                {{ partial "sidebar.html" . }}
+            </aside>
+        </div>
+    </div>
+</body>
+</html>

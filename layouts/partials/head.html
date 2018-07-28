@@ -1,0 +1,15 @@
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+{{ if eq .Site.Params.use_sass "true"}}
+{{ $style := resources.Get "sass/style.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen" type="text/css">
+{{ $style2 := resources.Get "sass/print.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style2.Permalink }}" media="print" type="text/css">
+{{ else }}
+{{ $style := resources.Get "css/style.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen" type="text/css">
+{{ $style2 := resources.Get "css/print.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style2.Permalink }}" media="print" type="text/css">
+{{ end }}
