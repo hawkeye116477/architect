@@ -13,3 +13,7 @@
 {{ $style2 := resources.Get "css/print.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style2.Permalink }}" media="print" type="text/css">
 {{ end }}
+
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
