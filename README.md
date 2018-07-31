@@ -52,7 +52,7 @@ Additionally, you may choose to set the following optional variables:
 
 If you'd like to add your own custom styles:
 
-Method 1 (scss, requires extended version of Hugo)
+**Method 1 (scss, requires extended version of Hugo)**
 1. Create a file called `/assets/sass/style.scss` in your site
 2. Add the following content to the top of the file, exactly as shown:
     ```scss
@@ -63,7 +63,7 @@ Method 1 (scss, requires extended version of Hugo)
 
 *Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
-Method 2 (css)
+**Method 2 (css)**
 1. Create css files inside static directory in your main site's directory.
 2. Add to config.toml similar code to this:
 ```toml
