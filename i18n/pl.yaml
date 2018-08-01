@@ -23,8 +23,11 @@
 - id: ThisPageWasGeneratedBy
   translation: "Ta strona została wygenerowana przez"
 
-- id: usingTheArchitectTheme
-  translation: "z wykorzystaniem motywu Architect"
+- id: using
+  translation: "z wykorzystaniem"
+
+- id: theArchitectTheme
+  translation: "motywu Architect"
 
 - id: originallyCreatedBy
   translation: "oryginalnie stworzonego przez"
