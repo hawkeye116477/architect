@@ -8,7 +8,7 @@ description = "Architect is a Jekyll theme, ported to Hugo."
 homepage = "https://github.com/hawkeye116477/hugo-architect-theme"
 tags = []
 features = []
-min_version = "0.41"
+min_version = "0.55"
 
 [author]
   name = "hawkeye116477"
