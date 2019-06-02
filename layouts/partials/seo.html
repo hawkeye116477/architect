@@ -1,6 +1,6 @@
 <title>{{ if .IsHome }}{{ .Site.Title }}{{" | "}}{{ .Site.Params.Description }}{{ else }}{{ .Title }}{{" | "}}{{ .Site.Title }}{{ end }}</title>
 
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"/>
 <link rel="canonical" href="{{ .Permalink }}" />
 
