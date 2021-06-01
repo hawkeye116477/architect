@@ -28,7 +28,6 @@ title = "The title of your site"
 Additionally, you may choose to set the following optional variables:
 
 ```toml
- LanguageCode = "pl" # to change HTML lang attribute and og:locale property (default en-US)
  pygmentsCodeFences = "true" # to enable syntax highlighting in code fences with a language tag in markdown
  pygmentsUseClasses = "true" # to use CSS classes to format your highlighted code (The Architect theme has rouge-github.scss with rules for classes)
 
